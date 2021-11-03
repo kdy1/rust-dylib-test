@@ -10,3 +10,6 @@ crate-type = ["rlib", "cdylib"]
 
 [dependencies]
 kdy1_test_common = {path = "../runtime/common/"}
+
+[profile.dev]
+rpath = true
