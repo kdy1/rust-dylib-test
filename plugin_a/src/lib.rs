@@ -1,5 +1,5 @@
 use kdy1_test_common::foo;
 
-pub fn operate() {
+pub extern "C" fn swc_process() {
     foo();
 }
