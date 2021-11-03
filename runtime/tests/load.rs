@@ -2,5 +2,7 @@ use runtime::call_dynamic;
 
 #[test]
 fn load() {
-    call_dynamic().unwrap();
+    let val = call_dynamic().unwrap();
+
+    assert_eq!(val, 5);
 }
