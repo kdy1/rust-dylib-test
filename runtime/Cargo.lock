@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
+name = "kdy1_test_common"
+version = "0.1.0"
+
+[[package]]
 name = "runtime"
 version = "0.1.0"
+dependencies = [
+ "kdy1_test_common",
+]
