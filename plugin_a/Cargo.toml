@@ -1,9 +1,9 @@
 [package]
-name = "plugin_a"
-version = "0.1.0"
 edition = "2021"
-publish=false
+name = "plugin_a"
+publish = false
+version = "0.1.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-kdy1_test_common = { path = "../runtime/common/" }
+kdy1_test_common = {path = "../runtime/common/"}

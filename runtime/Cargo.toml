@@ -1,10 +1,10 @@
 [workspace]
 
 [package]
-name = "runtime"
-publish=false
-version = "0.1.0"
 edition = "2021"
+name = "runtime"
+publish = false
+version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -12,4 +12,4 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-kdy1_test_common = { path = "./common/" }
+kdy1_test_common = {path = "./common/"}
